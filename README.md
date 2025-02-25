@@ -29,3 +29,31 @@ Update a record: Change a Pokémon's information by providing its ID.
 Delete a record: Remove a Pokémon from the database by its ID.
 Exit: Close the program.
 Once you’re done with one task, the system will ask you what to do next. It keeps looping until you choose to exit.
+
+#Installation
+To get started, just follow these easy steps:
+
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/pokemon-database.git
+Change into the project directory:
+
+bash
+Copy
+Edit
+cd pokemon-database
+Install the required dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run the main script:
+
+bash
+Copy
+Edit
+python main.py
