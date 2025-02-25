@@ -4,7 +4,7 @@ import requests
 DB_NAME = "pokemon.db"
 
 # Function to initialize the database (run once)
-def initialize_database():
+def initialise_database():
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
     cursor.execute("""
@@ -119,7 +119,7 @@ def delete_pokemon(pokemon_id):
 
 # Main CLI Menu
 def main_menu():
-    initialize_database()
+    initialise_database()
 
     while True:
         print("\n📌 Pokémon Database CLI")
