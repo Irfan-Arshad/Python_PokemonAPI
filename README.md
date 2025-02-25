@@ -35,25 +35,17 @@ To get started, just follow these easy steps:
 
 Clone the repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/yourusername/pokemon-database.git
+
 Change into the project directory:
 
-bash
-Copy
-Edit
 cd pokemon-database
+
 Install the required dependencies:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
+pip install requests
+(sqlite is also required)
+
 Run the main script:
 
-bash
-Copy
-Edit
 python main.py
