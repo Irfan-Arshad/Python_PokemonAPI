@@ -30,7 +30,7 @@ Delete a record: Remove a Pokémon from the database by its ID.
 Exit: Close the program.
 Once you’re done with one task, the system will ask you what to do next. It keeps looping until you choose to exit.
 
-#Installation
+# Installation
 To get started, just follow these easy steps:
 
 Clone the repository:
